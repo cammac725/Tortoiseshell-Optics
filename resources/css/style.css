@@ -59,3 +59,21 @@ li {
 .mobile-menu {
   display: none;
 }
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner {  
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.banner a {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2em;
+  }
