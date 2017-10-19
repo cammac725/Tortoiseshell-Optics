@@ -70,10 +70,74 @@ li {
   padding: 1.5rem 5rem;
   margin-top: 10rem;
   margin-right: -2rem;
-}
-
-.banner a {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2em;
-  }
+}
+
+/* Supporting section */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.service img {
+  width: 5rem;
+}
+
+/* Information section */
+
+.supporting2 {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.headline {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.info p {
+  padding: 1rem 0;
+  line-height: 1.4rem;
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
