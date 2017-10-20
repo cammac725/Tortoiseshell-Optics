@@ -4,10 +4,6 @@ html {
   line-height: 1.4em;
 }
 
-body {
-  
-}
-
 div {
   display: block;
 }
@@ -24,10 +20,10 @@ header {
   background-image: url("../images/glasses-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 31rem;
+  height: 30rem;
 }
 
-nav {
+header nav {
   background-color: cadetblue;
   color: white;
   display: flex;
@@ -140,4 +136,27 @@ footer img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner { 
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: ) {
+  .container {
+    width: 100%;
+  }
 }
