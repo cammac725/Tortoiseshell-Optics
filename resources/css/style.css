@@ -194,16 +194,15 @@ footer img {
     flex-direction: column;
     align-items: center;
     margin: 2rem;
-    
   }
   
   .service {
-    padding: 0.77rem
+    padding: 0.77rem;
+    height: 5.5rem;
   }
   
   .service p {
     font-size: 0.77rem;
   }
-  
   
 }
