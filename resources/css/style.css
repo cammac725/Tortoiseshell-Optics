@@ -198,11 +198,46 @@ footer img {
   
   .service {
     padding: 0.77rem;
-    height: 5.5rem;
+    height: 6rem;
   }
   
   .service p {
     font-size: 0.77rem;
   }
   
+  .service img.paper-icon {
+    margin-bottom: 0.75rem;
+  }
+
+  .supporting2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info {
+    width: 100%;
+  }
+  
+  .info p {
+    font-size: 0.77rem;
+    line-height: 1.1rem;
+    padding-left: 1rem;
+  }
+  
+  .headline {
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    display: none;
+  }
+  
+  footer {
+   justify-content: center;
+  }
+  
+  footer img {
+    padding-right: 3rem;
+  }
 }
